@@ -1,0 +1,49 @@
+.BillToPay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.Filter {
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.react-datepicker-wrapper {
+  width: 200px;
+}
+
+.container-input {
+  width: 200px;
+}
+
+input {
+  margin: 5px 0 0 10px;
+  border-radius: 5px;
+}
+
+.AddNewBill .btn .AddNewBill_btn{
+  min-width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: rgba(0,160,153,1);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.AddNewBill .btn .AddNewBill_btn:hover {
+  filter: brightness(1.1);
+  background-color: rgba(38, 43, 78, 1);
+  color: white;
+  transition: all 300ms ease;
+}

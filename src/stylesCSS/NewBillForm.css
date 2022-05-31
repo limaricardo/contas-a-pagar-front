@@ -1,0 +1,92 @@
+.Container_billForm {
+  background-color: white;
+  display: flex;
+  min-width: 400px;
+  min-height: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Container_billForm h2 {
+  margin-top: 20px;
+}
+
+.x-button {
+  background-color: white;
+  border: none;
+  color: red;
+  position: absolute;
+  font-size: 1.3rem;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  background-color: white!important;
+  color: black!important;
+  font-weight: bold;
+}
+
+#pago-label, #fornecedor-label {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.input {
+  border-radius: 5px;
+}
+
+.DataDeVencimento {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(38, 43, 78, 1);
+}
+
+.vencimento {
+  display: flex;
+  align-items: center;
+}
+
+.vencimento p{
+  margin-right: 10px;
+  margin-bottom: 5px;
+  height: 14px;
+  font-weight: bold;
+}
+
+.DatePicker_input {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.DatePicker_input input {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 5px;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: white!important;
+  background-color: rgba(0,160,153,1)!important;
+  
+}
+
+.react-datepicker__header {
+  background-color: black;
+}
+
+.react-datepicker__current-month, .react-datepicker__day-name {
+  color: white!important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover {
+  filter: brightness(1.1)!important;
+  background-color: rgba(38, 43, 78, 1)!important;
+  color: white!important;
+  transition: all 300ms ease!important;
+}
