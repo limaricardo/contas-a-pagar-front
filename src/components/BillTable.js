@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import lucroRural from "../api/lucroRural";
-import "../stylesCSS/BillTable.css";
 import ListBills from "./ListBills";
 
 

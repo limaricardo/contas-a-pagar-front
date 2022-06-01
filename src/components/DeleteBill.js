@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import DeleteIcon from "@mui/icons-material/Delete";
 import Button from "./Button";
 import DeleteForm from "./DeleteForm";
+import '../stylesCSS/EditDelete.css'
 
 const DeleteBill = ({ id }) => {
 
