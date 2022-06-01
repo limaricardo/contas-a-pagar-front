@@ -15,7 +15,6 @@ import ListItemText from "@mui/material/ListItemText";
 import Select from "@mui/material/Select";
 import Checkbox from "@mui/material/Checkbox";
 import { Button } from "@mui/material";
-import axios from "axios";
 import { toast } from "react-toastify";
 
 const NewBillForm = ({ setShowModal }) => {
@@ -77,7 +76,7 @@ const NewBillForm = ({ setShowModal }) => {
       notasFiscais: [notaFiscal],
     };
 
-    axios
+    lucroRural
       .post("/contas-a-pagar", {
         data,
       })

@@ -5,8 +5,8 @@ import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
-import axios from "axios";
 import { toast } from "react-toastify";
+import lucroRural from "../api/lucroRural";
 
 export default function DeleteForm({ handleClose, open, id }) {
 
@@ -17,7 +17,7 @@ export default function DeleteForm({ handleClose, open, id }) {
       id: id,
     }
 
-    axios
+    lucroRural
       .post("/contas-a-pagar-delete", {
         data,
       })
