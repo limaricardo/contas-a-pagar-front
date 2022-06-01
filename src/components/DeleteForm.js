@@ -23,7 +23,7 @@ export default function DeleteForm({ handleClose, open, id }) {
       })
       .then((res) => {
         if (res.status === 200) {
-          toast.success("Conta a pagar criada com sucesso!", {
+          toast.success("Conta a pagar deletada com sucesso!", {
             position: toast.POSITION.TOP_CENTER,
           });
           setTimeout(() => {
