@@ -3,6 +3,7 @@ import Modal from "./Modal";
 import Button from "./Button";
 import EditIcon from "@mui/icons-material/Edit";
 import EditBillForm from './EditBillForm'
+import '../stylesCSS/EditDelete.css'
 
 const EditBill = ({ id }) => {
   const [showModal, setShowModal] = useState(false);

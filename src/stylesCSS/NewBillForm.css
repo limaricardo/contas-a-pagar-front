@@ -12,6 +12,20 @@
   margin-top: 20px;
 }
 
+.Container_billForm .MuiButton-root {
+  background-color: rgba(0,160,153,1)!important;
+  color: white;
+}
+
+.Container_billForm .MuiButton-root:hover {
+  background-color: rgba(38, 43, 78, 1);
+  color: white;
+}
+
+.formNewBill {
+  border-radius: 10px;
+}
+
 .x-button {
   background-color: white;
   border: none;
