@@ -5,6 +5,7 @@ import "../stylesCSS/NewBillForm.css";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { CalendarEvent } from "react-bootstrap-icons";
+import { toast } from "react-toastify";
 
 // Import for Checkmarks of Notas Fiscais
 import OutlinedInput from "@mui/material/OutlinedInput";
@@ -15,7 +16,7 @@ import ListItemText from "@mui/material/ListItemText";
 import Select from "@mui/material/Select";
 import Checkbox from "@mui/material/Checkbox";
 import { Button } from "@mui/material";
-import { toast } from "react-toastify";
+
 
 
 
