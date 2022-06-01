@@ -18,7 +18,7 @@ import { Button } from "@mui/material";
 import { toast } from "react-toastify";
 
 const NewBillForm = ({ setShowModal }) => {
-  const [fornecedor, setFornecedor] = useState("Maria");
+  const [fornecedor, setFornecedor] = useState(fornecedores[0]);
   const [fornecedores, setFornecedores] = useState([]);
 
   const [notaFiscal, setNotaFiscal] = useState([]);
