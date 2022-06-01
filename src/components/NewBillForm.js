@@ -105,7 +105,7 @@ const NewBillForm = ({ setShowModal }) => {
 
 
   return (
-    <form className="formNewBill" action="/contas-a-pagar" onSubmit={onHandleSubmit}>
+    <form action="/contas-a-pagar" onSubmit={onHandleSubmit}>
       <div className="Container_billForm">
         <h2>Adicionar Nova Conta a Pagar</h2>
         <div className="Fornecedor_input">
