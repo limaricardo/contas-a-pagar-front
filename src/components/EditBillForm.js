@@ -185,9 +185,9 @@ const NewBillForm = ({ setShowModal, id }) => {
                   return nota.fornecedor === fornecedor;
                 })
                 .map((nota) => (
-                  <MenuItem key={nota.id} value={nota.id}>
+                  <MenuItem key={nota.numero_nota} value={nota.numero_nota}>
                     <Checkbox checked={notaFiscal.indexOf(notaFiscal) > -1} />
-                    <ListItemText primary={nota.id} />
+                    <ListItemText primary={nota.numero_nota} />
                   </MenuItem>
                 ))}
             </Select>
