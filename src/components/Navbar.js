@@ -4,7 +4,7 @@ import logo from '../images/logo.png'
 const Navbar = () => {
     return (
         <div className="ui top menu">
-            <img src={logo} alt="logo" style={{"width": "170px", "height": "50px"}}></img>
+            <img src={logo} alt="logo" style={{"margin-left": "20px", "width": "140px", "height": "50px"}}></img>
             <div className="right menu">
                 <div className="ui right aligned category search item">
                 <div className="ui transparent icon input">
