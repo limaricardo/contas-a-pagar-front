@@ -1,9 +1,10 @@
 import React from "react";
+import logo from '../images/logo.png'
 
 const Navbar = () => {
     return (
         <div className="ui top menu">
-            <img src="https://app.lucrorural.com.br/static/media/logo2.13dd5fa2.png" alt="big big" style={{"width": "120px", "height": "60px"}}></img>
+            <img src={logo} alt="logo" style={{"width": "170px", "height": "50px"}}></img>
             <div className="right menu">
                 <div className="ui right aligned category search item">
                 <div className="ui transparent icon input">
